@@ -28,22 +28,27 @@ textarea,
 select {
 	font: inherit;
 }
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	overflow-wrap: break-word;
-}
+// p,
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6 {
+// 	overflow-wrap: break-word;
+// }
 #root,
 #__next {
 	isolation: isolate;
 }
 
 p {
-	font-family: "Open Sans", sans-serif;
+	font-family: $ff-text;
+}
+
+h1,
+h2 {
+	font-family: $ff-headings;
 }
 
 a {
