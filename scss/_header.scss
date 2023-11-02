@@ -16,4 +16,8 @@
 	border: none;
 	font-weight: 700;
 	color: $neutral-very-dark-cyan;
+
+	&:hover {
+		color: $neutral-grayish-blue;
+	}
 }

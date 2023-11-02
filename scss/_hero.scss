@@ -1,3 +1,9 @@
+.hero-wrapper {
+	background-image: url(/assets/bg-hero-desktop.svg);
+	padding: 4.1rem 5.3rem;
+	background-color: $neutral-very-pale-cyan;
+}
+
 .hero {
 	display: flex;
 }
