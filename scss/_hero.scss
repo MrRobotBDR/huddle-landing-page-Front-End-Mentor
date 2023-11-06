@@ -6,12 +6,19 @@
 
 @media screen and (max-width: 375px) {
 	.hero-wrapper {
-		padding: 5%;
+		background-image: url(/assets/bg-hero-mobile.svg);
+		padding: 30px;
 	}
 }
 
 .hero {
 	display: flex;
+}
+
+@media screen and (max-width: 375px) {
+	.hero {
+		flex-direction: column;
+	}
 }
 
 .hero_text-left {
@@ -33,6 +40,30 @@
 	p {
 		margin-bottom: 2rem;
 		width: 510px;
+	}
+}
+@media screen and (max-width: 375px) {
+	.hero_text-left {
+		margin: 0 0 54px 0;
+		width: auto;
+		overflow-wrap: break-word;
+		text-align: center;
+
+		h1 {
+			font-size: 24px;
+			font-style: normal;
+			font-weight: 600;
+			line-height: 36px;
+			width: auto;
+		}
+
+		p {
+			width: auto;
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 24px;
+		}
 	}
 }
 

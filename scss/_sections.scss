@@ -9,6 +9,17 @@
 	}
 }
 
+@media screen and (max-width: 375px) {
+	.header {
+		margin-bottom: 80px;
+
+		img {
+			width: 104px;
+			height: 16px;
+		}
+	}
+}
+
 .cta-header {
 	padding: 13px 63px;
 	border-radius: 24px;
@@ -20,6 +31,12 @@
 
 	&:hover {
 		color: $neutral-grayish-blue;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.cta-header {
+		padding: 8px 34px;
 	}
 }
 
@@ -52,7 +69,6 @@
 
 	h2 {
 		color: $neutral-very-dark-cyan;
-
 		font-size: 32px;
 		font-style: normal;
 		font-weight: 600;
@@ -70,4 +86,30 @@
 	font-size: 20px;
 	font-style: normal;
 	font-weight: 700;
+
+	&:hover {
+		cursor: pointer;
+		background-color: #ff9adb;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.cta-card {
+		max-width: 352px;
+		height: 176px;
+		margin: 20px auto -75px auto;
+	}
+	.cta-card__content {
+		h2 {
+			font-size: 18px;
+			font-style: normal;
+			font-weight: 600;
+		}
+	}
+
+	.button-cta {
+		width: 200px;
+		height: 40px;
+		font-size: 14px;
+	}
 }
