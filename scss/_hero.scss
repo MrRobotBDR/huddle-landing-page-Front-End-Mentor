@@ -4,6 +4,12 @@
 	background-color: $neutral-very-pale-cyan;
 }
 
+@media screen and (max-width: 375px) {
+	.hero-wrapper {
+		padding: 5%;
+	}
+}
+
 .hero {
 	display: flex;
 }
